@@ -1,0 +1,49 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.fkyerList
+{
+    text-align: center;
+}
+
+.ListBtn
+{
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: center; */
+    align-items: center;
+    /* border: 2px solid black; */
+    /* background: red; */
+    /* gap: 100px; */
+    height: 72px;
+    margin-top: 30px;
+    border-radius: 15px;
+    width: 1400px;
+    position: absolute; 
+    left: 30px;
+}
+
+.headertext
+{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    border-radius: 20px;
+    background: #E8E8E8;
+}
+
+.headertext p
+{
+    font-size: 20px
+}
+
+.headertext i
+{
+    font-size: 30px;
+}

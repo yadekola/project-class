@@ -1,0 +1,85 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.flyerbigBrowes
+{
+    
+    text-align: center;
+}
+
+.bigBrowes
+{
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    /* background: red; */
+    gap: 100px;
+    height: 72px;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+.iconsbrowes
+{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    border-radius: 20px;
+
+}
+
+.iconsbrowes p 
+{
+    font-size: 20px
+}
+
+.iconsbrowes i
+{
+    font-size: 30px;
+}
+
+#iconslike
+{
+    color: #E93740;
+    border: 2px solid;
+    background: rgb(216, 79, 79);
+    
+    border-radius: 50%;
+}
+
+#iconshome
+{
+    color: rgb(31, 175, 31);
+    background: rgb(207, 193, 193);
+    border-radius: 50%;
+}
+
+#iconscomp
+{
+    color: rgb(144, 71, 144);
+    background: rgb(219, 159, 225);
+    border-radius: 50%;
+}
+
+#iconsdoll
+{
+    color: rgb(42, 88, 214);
+    background: rgb(109, 134, 204);
+    border-radius: 50%;
+}
+
+#iconsdot
+{
+    border-radius: 50%;
+    color: #E93740;
+    border: 2px solid;
+    background: rgb(215, 199, 199);
+}

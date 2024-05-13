@@ -1,0 +1,183 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border-radius: none;
+    outline: none;
+}
+
+section
+{
+   min-height: 90vh;
+    margin-top: 50px;
+    background-image: url(./assets/images/image1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flyerheadrContainer
+{
+    width: 600px;
+    height: 359px;
+    
+    left: 544px;
+    gap: 48px;
+    text-align: center;
+    top: 140px;
+    position: absolute;    
+    
+}
+
+.headerContainer
+{
+    width: 600px;
+    height: 152px;
+    gap: 32px;
+    padding: 10px;
+}
+
+.headerContainer h1
+{
+    width: 600px;
+    height: 72px;
+    font-size: 40px;
+    line-height: 72px;
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 72px;
+}
+
+.headerContainer span
+{
+    color: #E93740;
+}
+
+.headerContainer p
+{
+    width: 600px;
+    height: 48px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 48px;
+    color: #1C1C1C;
+}
+
+.biginputContainer
+{
+    position: absolute;    
+    left: 130px;
+    height: 159px;
+    gap: 24px;
+}
+
+.flyerBtn
+{
+    width: 319px;
+    height: 39px;
+    gap: 16px;
+}
+
+button
+{
+    width: 99px;
+    height: 39px;
+    border-radius: 120px;
+    padding: 10px, 24px, 10px, 24px;
+    gap: 10px;
+}
+
+.flyerbtn1
+{
+    background-color: #E93740;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    color: #FFFFFF;
+}
+
+.bigboxinput
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: -130px;
+    top: 80px;
+   
+}
+
+.inputflyer
+{
+    /* border: 2px solid #FFFFFF; */
+    border-right: 2px solid rgb(199, 231, 234);
+    height: 50px;
+    width: 300px;
+    box-shadow: #000000;
+    border-top-left-radius: 15px; 
+    border-bottom-left-radius: 15px;
+    background: #FFFFFF;
+}
+
+.inputflyer i
+{
+    font-size: 25px;
+    color: #979797;
+}
+
+.boxinput
+{
+    /* border: 2px solid #FFFFFF; */
+    border-left: 2px solid rgb(199, 231, 234);
+    height: 50px;
+    width: 300px;
+    box-shadow: #000000;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: #FFFFFF;
+    
+}
+
+.boxinput input
+{
+    height: 20px;
+}
+
+.boxinput i
+{
+    font-size: 25px;
+    color: #979797;   
+    cursor: pointer;
+    
+}
+#boxicon
+{
+    background: #E93740;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.boxinput
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.inputflyer
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+input
+{
+    border: none;
+}
+

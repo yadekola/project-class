@@ -1,0 +1,15 @@
+.HomelistContainer
+{
+    width: 519px;
+    height: 605px;
+    top: 104px;
+}
+
+.homeimg p
+{
+    width: 108px;
+    height: 37px;
+    top: 24px;
+    left: 387px;
+    border-radius: 40px
+}
